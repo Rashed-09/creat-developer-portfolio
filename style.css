@@ -1,0 +1,61 @@
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body section */
+body{
+    /* font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif; */
+}
+/* header Styles here */
+
+.header{
+    background-color: #fff8f3;
+
+}
+.name{
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* color word */
+.word-color{
+    color: #FD6E0A;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 80px;
+}
+
+nav > ul{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+nav ul li{
+    list-style: none;
+    display: flex;
+    margin-right: 50px;
+    align-items: center;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: #474744;
+}
+.hair-me{
+    font-family: 'open sens' sans-serif ;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 14px 28px;
+    background-color: #FD6E0A;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    cursor: pointer;
+}
