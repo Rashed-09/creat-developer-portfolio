@@ -103,30 +103,3 @@ nav ul li a{
 
 
 /* This is main section */
-.main{
-    /* width: 1140px;
-    height: 550px; */
-    background-color: #fff8f3;
-    padding: 130px;
-    border-radius: 10px;
-
-    /* justify-content:center; */
-    
-}
-.about-me{
-    color: black;
-    text-align: center;
-    font-size: 34px;
-    font-family: Open Sans;
-    font-weight: 700;
-}
-.about-my-description{
-    color: #757575;
-    align-items: center;
-    font-size: 18px;
-    line-height: 30px;
-    /* text-align: justify; */
-    font-weight: 400;
-    font-family: Open Sans;
-    
-}
