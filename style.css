@@ -14,7 +14,9 @@ body{
 
 .header{
     background-color: #fff8f3;
-
+    background-image: url('images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 .name{
     font-size: 45px;
@@ -68,7 +70,22 @@ nav ul li a{
     align-items: self-end;
     /* padding-bottom: 60px; */
     margin-bottom: 90px;
+    justify-content: space-between;
    
+}
+.text-area{
+    max-width: 500px;
+}
+
+.hello{
+    margin-top: 0;
+    padding-top: 0;
+}
+.hi{
+    margin-bottom: 0;
+    padding-bottom: 0;
+    color:#474744;
+
 }
 .download{
     font-weight: 500;
@@ -79,5 +96,37 @@ nav ul li a{
 
 }
 .without-nav-header .profile-pic{
-    width: 500px;
+    width: 650px;
+    height: 600px;
+}
+
+
+
+/* This is main section */
+.main{
+    /* width: 1140px;
+    height: 550px; */
+    background-color: #fff8f3;
+    padding: 130px;
+    border-radius: 10px;
+
+    /* justify-content:center; */
+    
+}
+.about-me{
+    color: black;
+    text-align: center;
+    font-size: 34px;
+    font-family: Open Sans;
+    font-weight: 700;
+}
+.about-my-description{
+    color: #757575;
+    align-items: center;
+    font-size: 18px;
+    line-height: 30px;
+    /* text-align: justify; */
+    font-weight: 400;
+    font-family: Open Sans;
+    
 }
