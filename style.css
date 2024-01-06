@@ -29,7 +29,8 @@ body{
 .header-nav{
     display: flex;
     justify-content: space-between;
-    padding: 0px 80px;
+    /* padding: 0px 80px; */
+    margin: 0 160px;
 }
 
 nav > ul{
@@ -58,4 +59,25 @@ nav ul li a{
     border-radius: 3px;
     border: 0;
     cursor: pointer;
+}
+
+/* information areas in header section */
+.without-nav-header{
+    margin: 30px 30px 30px 160px;
+    display: flex;
+    align-items: self-end;
+    /* padding-bottom: 60px; */
+    margin-bottom: 90px;
+   
+}
+.download{
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #FD6E0A;
+    border: 0;
+    color: white;
+
+}
+.without-nav-header .profile-pic{
+    width: 500px;
 }
