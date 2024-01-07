@@ -144,9 +144,11 @@ nav ul li a{
     text-align: center;
     font-size: 20px;
     font-weight: 400;
+    margin-bottom: 0;
 }
 .info-adress{
-    color: #474747;
-    font-size: 20px;
-    font-weight: 700;
+    color: #474744;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 5px;
 }
